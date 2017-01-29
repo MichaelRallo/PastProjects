@@ -1,0 +1,136 @@
+body:after
+{
+content:url(../images/builds/warrior/barb1.png)
+        url(../images/builds/warrior/barb2.png)
+        url(../images/builds/warrior/barb3.png)
+        url(../images/builds/warrior/dest1.png)
+        url(../images/builds/warrior/dest2.png)
+        url(../images/builds/warrior/dest3.png)
+        url(../images/builds/warrior/glad1.png)
+        url(../images/builds/warrior/glad2.png)
+        url(../images/builds/warrior/glad3.png)
+        url(../images/builds/warrior/lunarknight1.png)
+        url(../images/builds/warrior/lunarknight2.png)
+        url(../images/builds/warrior/lunarknight3.png)
+    
+        url(../images/builds/archer/sniper1.png)
+        url(../images/builds/archer/sniper2.png)
+        url(../images/builds/archer/sniper3.png)
+        url(../images/builds/archer/tempest1.png)
+        url(../images/builds/archer/tempest2.png)
+        url(../images/builds/archer/tempest3.png)
+        url(../images/builds/archer/warden1.png)
+        url(../images/builds/archer/warden2.png)
+        url(../images/builds/archer/warden3.png)
+        url(../images/builds/archer/windwalker1.png)
+        url(../images/builds/archer/windwalker2.png)
+        url(../images/builds/archer/windwalker3.png)
+
+        url(../images/builds/sorceress/chaos1.png)
+        url(../images/builds/sorceress/chaos2.png)
+        url(../images/builds/sorceress/chaos3.png)
+        url(../images/builds/sorceress/ice1.png)
+        url(../images/builds/sorceress/ice2.png)
+        url(../images/builds/sorceress/ice3.png)
+        url(../images/builds/sorceress/pyro1.png)
+        url(../images/builds/sorceress/pyro2.png)
+        url(../images/builds/sorceress/pyro3.png)
+        url(../images/builds/sorceress/war1.png)
+        url(../images/builds/sorceress/war2.png)
+        url(../images/builds/sorceress/war3.png)
+    
+        url(../images/builds/cleric/crus1.png)
+        url(../images/builds/cleric/crus2.png)
+        url(../images/builds/cleric/crus3.png)
+        url(../images/builds/cleric/guard1.png)
+        url(../images/builds/cleric/guard2.png)
+        url(../images/builds/cleric/guard3.png)
+        url(../images/builds/cleric/inq1.png)
+        url(../images/builds/cleric/inq2.png)
+        url(../images/builds/cleric/inq3.png)
+        url(../images/builds/cleric/saint1.png)
+        url(images/builds/cleric/saint2.png)
+        url(images/builds/cleric/saint3.png)
+
+display: none;
+}
+
+    
+
+#threeBuilds{
+    margin: auto;
+    padding: 15px;
+    visibility: hidden;
+}
+
+#threeBuilds div{
+    margin:5px;
+    float:left;
+}
+
+.skillBuildColumn{
+    height:645px;
+    width: 380px;
+     border: 3px solid rgb(70, 69, 69);
+    -webkit-background-clip: padding-box; /* for Safari */
+    -moz-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    
+    border-radius: 5px;
+    background-color: rgb(34, 34, 34); 
+}
+
+#titleScreen{
+    text-align: center;
+}
+
+#threeBuilds div.skillBuildColumn #firstBuild{
+    margin: auto;
+    width: 375.5px;
+    height:600px;
+    background-size: cover;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#threeBuilds div.skillBuildColumn #secondBuild{
+    margin: auto;
+    width: 375.5px;
+    height:600px;
+    background-size: cover;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#threeBuilds div.skillBuildColumn #thirdBuild{
+    margin: auto;
+    width: 375.5px;
+    height:600px;
+    background-size: cover;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#threeBuilds div.skillBuildColumn .skillBuildColumnBanner{
+    margin: auto;
+    height: 40px;
+    width: 376px;
+    background-color: rgb(70, 69, 69);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+
+
+.group:after{
+      content: "";
+      display: table;
+      clear: both;
+}
+
+
+#progressBar{
+  
+}

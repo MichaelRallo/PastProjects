@@ -1,0 +1,33 @@
+#title{
+    background-color: rgba(220,220,220, 0.9);
+    text-align: center;
+}
+
+#content{
+    background-color: rgba(220,220,220, 0.9);
+    color: black;
+}
+#dragonsContainer{
+    margin: auto;
+    padding-top: 50px;
+    height:1000px;
+    width: 1200px;
+}
+
+#dragonsContainer img{
+    height: 400px;
+    width: 400px;
+    border: solid black 5px;
+    position: relative;
+    left: 160px;
+    margin: 20px;
+}
+
+#dragonsContainer img:hover{
+    opacity: 0.8;
+    border:solid lightgoldenrodyellow 5px;    
+}
+
+#guideContainer{
+    
+}

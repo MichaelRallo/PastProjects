@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="board" prefHeight="624.0" prefWidth="959.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="homework2.ai.VacuumWorldController">
+    <stylesheets>
+        <URL value="@vacuumworld.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="624.0" fitWidth="961.0">
+         <image>
+            <Image url="@backgroundController.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="gridContainer" layoutX="15.0" layoutY="69.0" prefHeight="272.0" prefWidth="323.0" style="-fx-border-width: 2; -fx-border-color: #000000; -fx-background-color: #f0f8ff;" />
+      <Label layoutX="306.0" layoutY="2.0" prefHeight="41.0" prefWidth="349.0" text="Vacuum Cleaner World" textAlignment="CENTER">
+         <font>
+            <Font name="Klee Demibold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonDFGS" layoutX="148.0" layoutY="512.0" mnemonicParsing="false" onAction="#buttonDFGSFunction" prefHeight="32.0" prefWidth="105.0" style="-fx-border-color: #548734;" text="DFGS">
+         <font>
+            <Font name="Klee Medium" size="14.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="641.0" layoutY="105.0" opacity="0.7" prefHeight="228.0" prefWidth="71.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <ScrollPane prefHeight="228.0" prefWidth="82.0">
+               <content>
+                  <TextArea fx:id="actionList" prefHeight="228.0" prefWidth="82.0" />
+               </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+      <Label layoutX="646.0" layoutY="74.0" prefHeight="17.0" prefWidth="71.0" text="Path Taken" textAlignment="CENTER">
+         <font>
+            <Font name="Kaiti SC Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="39.0" prefHeight="17.0" prefWidth="263.0" text="Created by:  Mike Rallo, Dustin Rios, Kara Hryszko">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label fx:id="costLabel" layoutX="759.0" layoutY="115.0" prefHeight="21.0" prefWidth="152.0" text="Cost:" textAlignment="CENTER">
+         <font>
+            <Font name="Kaiti SC Regular" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonIDS" layoutX="38.0" layoutY="512.0" mnemonicParsing="false" onAction="#buttonIDSFunction" prefHeight="28.0" prefWidth="105.0" style="-fx-border-color: #548734;" text="IDS">
+         <font>
+            <Font name="Klee Medium" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonAStar" layoutX="257.0" layoutY="512.0" mnemonicParsing="false" onAction="#butttonAStarFunction" prefHeight="32.0" prefWidth="98.0" style="-fx-border-color: #548734;" text="A*">
+         <font>
+            <Font name="Klee Medium" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="dirtyRoomLabel" layoutX="759.0" layoutY="73.0" prefHeight="21.0" prefWidth="185.0" text="Number of Dirty Rooms:" textAlignment="CENTER">
+         <font>
+            <Font name="Kaiti SC Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="depthLabel" layoutX="759.0" layoutY="136.0" prefHeight="21.0" prefWidth="185.0" text="Depth:" textAlignment="CENTER">
+         <font>
+            <Font name="Kaiti SC Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="currentRoomLabel" layoutX="759.0" layoutY="94.0" prefHeight="21.0" prefWidth="185.0" text="Current Room:" textAlignment="CENTER">
+         <font>
+            <Font name="Kaiti SC Regular" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonToggleRooms" layoutX="84.0" layoutY="554.0" mnemonicParsing="false" onAction="#buttonToggleRoomsFunction" prefHeight="32.0" prefWidth="128.0" style="-fx-border-color: #548734;" text="ToggleRooms">
+         <font>
+            <Font name="Klee Medium" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonReset" layoutX="218.0" layoutY="554.0" mnemonicParsing="false" onAction="#buttonResetFunction" prefHeight="32.0" prefWidth="128.0" style="-fx-border-color: #548734;" text="Reset">
+         <font>
+            <Font name="Klee Medium" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

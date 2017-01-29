@@ -1,0 +1,175 @@
+body:after
+{
+content: url(../images/classes/warriorAfter.jpg) 
+         url(../images/classes/archerAfter.jpg) 
+         url(../images/classes/clericAfter.jpg) 
+         url(../images/classes/sorceressAfter.jpg)
+         url(../images/classes/tinkerAfter.jpg)
+         url(../images/classes/kaliAfter.jpg)
+         url(../images/classes/assassinAfter.jpg)
+         url(../images/classes/lenceaAfter.jpg);
+display: none;
+}
+li{
+        list-style-type: none;
+}
+.fr {
+    float: right !important;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.img-3col {
+    float: left;
+    margin-bottom: 20px;
+}
+.subclass {
+    float: left;
+}
+.bullet {
+    margin-bottom: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+h3 {
+    text-align: left;
+    color: #003745;
+    font-size: 14px;
+    margin-bottom: 12px;
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.title{
+    color: seagreen;
+    text-align: center;
+    font-size: 3.6em;
+    font-weight: bold;
+}
+#classDescription{
+    background-color:rgba(220,220,220, 0.95);
+    height:auto;
+    width: 1200px; 
+    padding: 20px 40px;
+}
+
+/*
+.intro{
+   float: left 
+   background-color: red;
+    width: 200px;
+    height: 200px;
+}
+.introImage{
+    position: relative;
+    left: 600px;
+    background-color: aquamarine;
+    width: 260px;
+    height: 200px;
+}
+
+
+#classDescription p{
+
+    font-size: 1.8em;
+    font-weight: bold;
+    float: left;
+}
+*/
+#content{
+    background-color:rgba(220,220,220, 0.95);
+    height:150px;
+    width: 1200px; 
+}
+.group:after{
+      content: "";
+      display: table;
+      clear: both;
+}
+
+#classesContainer{
+    height: auto;
+    width: 1200px;
+    background-color: white;
+    display: inline;
+}
+
+#classesContainer div{
+    height: 187.5px;
+    width: 150px; 
+    background-size: cover;  
+    float: left;
+}
+
+#warrior{
+    background-image: url("../images/classes/warriorBefore.jpg");
+}
+
+#warrior:hover{
+    background-image: url("../images/classes/warriorAfter.jpg");
+}
+#archer{
+    background-image: url("../images/classes/archerBefore.jpg");
+}
+
+#archer:hover{
+    background-image: url("../images/classes/archerAfter.jpg");
+}
+#cleric{
+    background-image: url("../images/classes/clericBefore.jpg");
+}
+
+#cleric:hover{
+    background-image: url("../images/classes/clericAfter.jpg");
+}
+#sorceress{
+    background-image: url("../images/classes/sorceressBefore.jpg");
+}
+
+#sorceress:hover{
+    background-image: url("../images/classes/sorceressAfter.jpg");
+}
+#tinker{
+    background-image: url("../images/classes/tinkerBefore.jpg");
+}
+
+#tinker:hover{
+    background-image: url("../images/classes/tinkerAfter.jpg");
+}
+#kali{
+    background-image: url("../images/classes/kaliBefore.jpg");
+}
+
+#kali:hover{
+    background-image: url("../images/classes/kaliAfter.jpg");
+}
+#assassin{
+    background-image: url("../images/classes/assassinBefore.jpg");
+}
+
+#assassin:hover{
+    background-image: url("../images/classes/assassinAfter.jpg");
+}
+#lencea{
+    background-image: url("../images/classes/lenceaBefore.jpg");
+}
+
+#lencea:hover{
+    background-image: url("../images/classes/lenceaAfter.jpg");
+}
+
+
+
+
+
+
+
+

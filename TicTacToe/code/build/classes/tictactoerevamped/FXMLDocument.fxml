@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="boardPane" prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="tictactoerevamped.FXMLDocumentController">
+  <children>
+    <GridPane fx:id="board" gridLinesVisible="true" layoutX="237.0" layoutY="58.0" prefHeight="412.0" prefWidth="412.0">
+      <children>
+        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+    <Label fx:id="player1Label" layoutX="308.0" layoutY="23.0" text="Player 1">
+      <font>
+        <Font size="18.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label fx:id="player2Label" font="$x1" layoutX="514.0" layoutY="23.0" text="Player 2" />
+    <Button fx:id="beginnerVsMe" layoutX="38.0" layoutY="58.0" mnemonicParsing="false" onMouseClicked="#beginnerVsMeClick" prefHeight="30.0" prefWidth="165.0" text="Beginner vs. Me">
+      <font>
+        <Font size="14.0" fx:id="x2" />
+      </font>
+    </Button>
+    <Button fx:id="beginnerVsAdvanced" font="$x2" layoutX="38.0" layoutY="98.0" mnemonicParsing="false" onMouseClicked="#beginnerVsAdvancedClick" prefHeight="30.0" prefWidth="165.0" text="Beginner vs. Advanced" />
+    <Button fx:id="advancedVsBeginner" font="$x2" layoutX="38.0" layoutY="138.0" mnemonicParsing="false" onMouseClicked="#advancedVsBeginnerClick" prefHeight="30.0" prefWidth="165.0" text="Advanced vs. Beginner" />
+    <Button id="advancedVsMAster" fx:id="advancedVsMaster" font="$x2" layoutX="38.0" layoutY="178.0" mnemonicParsing="false" onMouseClicked="#advancedVsMasterClick" prefHeight="30.0" prefWidth="165.0" text="Advanced vs. Master" />
+    <Button fx:id="masterVsAdvanced" font="$x2" layoutX="38.0" layoutY="218.0" mnemonicParsing="false" onMouseClicked="#masterVsAdvancedClick" prefHeight="30.0" prefWidth="165.0" text="Master vs. Advanced" />
+    <Label fx:id="winnerLabel" alignment="CENTER_LEFT" contentDisplay="CENTER" layoutX="38.0" layoutY="283.0" maxHeight="100.0" maxWidth="150.0" prefHeight="100.0" prefWidth="150.0" text="" wrapText="true">
+      <font>
+        <Font size="32.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>

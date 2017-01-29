@@ -1,0 +1,62 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+#fancytext {
+    -fx-font: 32px Tahoma;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, white 30%, purple 50%);
+    -fx-stroke: black;
+    -fx-stroke-width: 3;
+}
+
+#fancytextForest {
+    -fx-font: 32px Tahoma;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, white 30%, green 50%);
+    -fx-stroke: black;
+    -fx-stroke-width: 3;
+}
+
+#fancytextSpace {
+    -fx-font: 32px Tahoma;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, white 30%, cyan 50%);
+    -fx-stroke: black;
+    -fx-stroke-width: 3;
+}
+
+#fancytextBones {
+    -fx-font: 32px Tahoma;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, white 30%, gray 50%);
+    -fx-stroke: black;
+    -fx-stroke-width: 3;
+}
+
+#fancytextAbout{
+    -fx-font: 32px Tahoma;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+    -fx-fill: white;
+    -fx-stroke: black;
+    -fx-stroke-width: 1.6;
+}
+
+#controls
+{
+    -fx-font: 20px Tahoma;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+    -fx-fill: white;
+    -fx-stroke: black;
+    -fx-stroke-width: 1px;        
+}

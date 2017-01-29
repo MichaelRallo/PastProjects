@@ -1,0 +1,327 @@
+#postCommentContainer{
+    height:auto; 
+    text-align: center;    
+    background-color:white;
+    border-radius:6px; 
+    border: solid black 4px; 
+    padding:30px;
+}
+#commentSubmit{
+    float: right; margin:auto;text-align: center;
+}
+#textAreaContainer{
+    margin:auto;border:solid white 6px; width:420px;
+}
+#limit { 
+    position: relative; 
+    overflow: hidden;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+}
+#classSelectionContainerSmall{
+    margin: auto;
+    margin-top: 50px;
+    height: 120px;
+    width: 600px;
+    padding: 8px;
+    rgba(0,0,0, 0.8);
+    display: block;
+}
+
+#commentSection{
+}
+
+#classSelectionContainerSmall div{
+    height: 100px;
+    width: 100px;
+    margin-left: 45px;
+    display: block;
+    float: left;
+    border-radius: 100%;
+    -webkit-transition: opacity 0.5s; /* Safari */
+    -moz-transition: opacity 0.5s; /* Safari */
+    transition: opacity 0.5s;
+}
+
+#classSelectionContainerSmall div:hover{
+    opacity: 0.5;
+    cursor:pointer;
+    -webkit-transition: opacity 0.5s; /* Safari */
+    -moz-transition: opacity 0.5s; /* Safari */
+    transition: opacity 0.5s;
+}
+
+#warriorSmall{
+    background-image: url("../images/musicPlayerSelectionWarriorSmall.jpg");
+}
+
+#archerSmall{
+    background-image: url("../images/musicPlayerSelectionArcherSmall.jpg");
+}
+
+#clericSmall{
+    background-image: url("../images/musicPlayerSelectionClericSmall.jpg");   
+}
+
+#sorceressSmall{
+    background-image: url("../images/musicPlayerSelectionSorceressSmall.jpg");
+}
+
+
+
+
+
+#classSelectionContainer{
+    height: 650px;
+    width: 1200px;
+    background-color: white;
+}
+
+#classSelectionContainer div{
+    height: 650px;
+    width: 300px; 
+    -webkit-transition: opacity 0.5s; /* Safari */
+    -moz-transition: opacity 0.5s; /* Safari */
+    transition: opacity 0.5s;    
+    
+}
+
+#classSelectionContainer div:hover{
+    opacity: 0.5;
+    cursor:pointer;
+    -webkit-transition: opacity 0.5s; /* Safari */
+    -moz-transition: opacity 0.5s; /* Safari */
+    transition: opacity 0.5s;
+}
+
+#warrior{
+    position: absolute;
+    background-image: url("../images/musicPlayerSelectionWarrior.jpg");
+    top: 0;
+    left: 300px;
+    bottom: 0;
+    right: 0;
+}
+
+#archer{
+    position: absolute;
+    background-image: url("../images/musicPlayerSelectionArcher.jpg");  
+    top: 0;
+    left: 600px;
+    bottom: 0;
+    right: 0;
+}
+
+#cleric{
+    position: absolute;
+    background-image: url("../images/musicPlayerSelectionCleric.jpg");  
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#sorceress{
+    position: absolute;
+    background-image: url("../images/musicPlayerSelectionSorceress.jpg");
+    top: 0;
+    left: 900px;
+    bottom: 0;
+    right: 0;
+}
+
+#clericCirclesContainer {
+    position: relative;
+    margin-left: 500px;
+    background: rgba(0,0,0,0);
+    width: 600px;
+    height: 650px;
+    float:right;
+}
+
+#clericCirclesContainer2 {
+    position: relative;
+    left: 30px;
+    top: 40px;
+    background: rgba(0,0,0,0);
+    width: 150px;
+    height: 150px;
+}
+
+#sorceressCirclesContainer {
+    position: relative;
+    background: rgba(0,0,0,0);
+    width: 1200px;
+    height: 650px;
+}
+
+#archerBarsContainer {
+    position: relative;
+    background: rgba(0,0,0,0);
+    width: 1200px;
+    height: 650px;
+}
+
+#archerBarsContainer svg{
+    position: absolute;
+    top: 150px;
+}
+
+#warriorBarsContainer {
+    position: relative;
+    background: rgba(0,0,0,0);
+    width: 1200px;
+    height: 650px;
+    display: inline;
+}
+
+#warriorBarsContainer svg{
+    position: absolute;
+    top: 150px;
+}
+
+.clericCircle {
+    border-radius: 100%;
+    background: rgba(0,191, 255,.2);
+    box-shadow: 0 0 6px 6px yellow;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -kthtml-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.clericCircle2 {
+    border-radius: 100%;
+    background: rgba(0,191, 255,.2);
+    box-shadow: 0 0 6px 6px yellow;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /*-webkit-transition: .1s ease all;
+    -moz-transition: .1s ease all;
+    -webkit-transition: transform 0.1s; 
+    -moz-transition: transform 0.1s; 
+    transition: transform 0.1s;*/
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -kthtml-transition: all .2s ease;
+    transition: all .2s ease;
+    
+    
+}
+
+.sorceressCircle {
+    border-radius: 100%;
+    background: rgba(51,0, 102,.2);
+    box-shadow: 0 0 6px 6px purple;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -kthtml-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.archerCircle {
+    border-radius: 100%;
+    background: rgba(51,0, 102,.2);
+    box-shadow: 0 0 6px 6px purple;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -kthtml-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.warriorBar {
+    border-radius: 100%;
+    background: rgba(51,0, 102,.2);
+    box-shadow: 0 0 6px 6px purple;
+    margin: auto;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -kthtml-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+#bars{
+    height: 150px;
+    width: 600px;
+    padding-top: 300px;
+    padding-left: 550px;
+}
+
+
+
+
+#musicContainer {
+    position: relative;
+    left: 0;
+    right: 0;
+    background:white;
+    -webkit-transition: background-size 5s, background-image .8s; /* Safari */
+    -moz-transition: background-size 5s, background-image .8s; /* Safari */
+    transition: background-size 5s, background-image .8s;
+    width: 1200px;
+    height: 650px;
+    margin: auto;
+}
+
+#overlay{
+    width: 1200px;
+    height: 650px;
+    z-index: 3;
+ -webkit-transition: background-color 1s; /* Safari */
+ -moz-transition: background-color 1s; /* Safari */
+    transition: background-color 1s;
+}
+
+
+#content{
+    background-color:rgba(220,220,220, 0.8);
+    height:auto;
+    width: 1200px; 
+}
+
+.group:after{
+      content: "";
+      display: table;
+      clear: both;
+}
+
+
+#progressBar{
+  
+}
+
+
+

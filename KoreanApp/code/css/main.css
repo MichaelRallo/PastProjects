@@ -1,0 +1,25 @@
+    /*******************************************/
+    /***Fonts***/
+    /*******************************************/
+    @font-face {
+        font-family: 'Eras Light ITC';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Eras Light ITC'), url('fonts/ERASLGHT.woff') format('woff');
+    }
+    
+    /*******************************************/
+    /****Universal Rules****/
+    /*******************************************/
+    *{
+        padding:0px;
+        margin: auto;
+        outline: none;
+    }
+
+
+
+
+
+
+
